@@ -1,0 +1,114 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ff6600;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Seção Secreta */
+.secao-secreta {
+    padding: 60px 0;
+}
+
+.secao-secreta h2 {
+    font-size: 2.5rem;
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.secao-secreta h3 {
+    font-size: 1.8rem;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 10px;
+}
+
+.medidas ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.medidas ol li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.treinos ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.treinos ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.alimentacao table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.alimentacao table th,
+.alimentacao table td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+.alimentacao table th {
+    background-color: #ff6600;
+    color: #000;
+}
+
+.alimentacao table td {
+    background-color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #ccc;
+}
