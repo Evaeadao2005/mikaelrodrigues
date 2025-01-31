@@ -7,3 +7,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// Adicionar classe sticky ao header ao rolar a página
+window.addEventListener('scroll', () => {
+    const header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0);
+});
